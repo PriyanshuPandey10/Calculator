@@ -2,6 +2,8 @@
     border: 1px solid rgb(34, 32, 32);
     border-radius: 5px;
     width:300px;
+    background-color: bisque;
+    
 }
 #display{
     margin: 15px;
@@ -20,4 +22,18 @@
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
 }
